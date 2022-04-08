@@ -1,0 +1,1930 @@
+  html{
+    font-size: 62.5%;
+  }
+  
+*{
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+list-style-type: none;
+text-decoration: none;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+ h1,h2,h3{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+ }
+ .container{
+   margin: 0 auto;
+   max-width: 1880px;
+  }
+ .nav-container{
+position: relative;
+      display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   height: 90px;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+
+ }
+ .container .nav-container .brand-logo{
+   width:  80px;
+   margin-left: 20px;
+  }
+.container .nav-container .brand-logo img{
+      width: 100%;
+ }
+ /*  end of nav logo styles */
+
+
+ /*  styling nav icon or toggler  */
+ .nav-icon{
+ display: none;
+ height: 40px;
+ width: 45px;
+  background-color: #e8e9eb;
+  margin-right: 4rem;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  
+ }
+.nav-icon:focus{
+ outline: none;
+ }
+
+.nav-icon i{
+  margin-top: .5rem;
+  font-size: 3rem;
+ }
+
+
+
+/* end of styling nav icon or toggler  */
+
+ /*  nav styles  */
+ .nav{
+   
+   display: block;
+   width: 70% ;
+ }
+ .nav .nav-items {
+  display: flex;
+   margin: 0 60px;
+   justify-content: space-evenly;
+ }
+ /* .nav .nav-items .nav-links{
+
+ } 
+ */
+ .nav .nav-items .nav-item {
+  padding: auto;
+ }
+.nav .nav-items .nav-item .nav-links:visited {
+  color: rgb(51, 51, 51);
+ }
+.nav .nav-items .nav-item .nav-links {
+  color: black;
+  font-family: 'Heebo', sans-serif;
+ font-weight: 900;
+ font-size: 20px;
+ text-transform: capitalize;
+ }
+.nav .nav-items .nav-item .nav-links:hover {
+   color: #ec6200;
+ }
+
+ /*  end of nav bar  ................. */
+
+
+ /*  
+  */
+ .container header{
+   width: 100%;
+   height: calc(90vh - 90px);
+   display: flex;
+   flex-wrap: wrap;
+   background: #E0E5EB;
+  
+ }
+ /*  header image style */
+ .container header .header-imag{
+   width: 58%;
+   height: 100%;
+   padding: 1rem 6rem;
+   padding-bottom: 0;
+ }
+ .container header .header-imag img{
+  width: 100%;
+  height: 100%;
+
+}
+/*  header text style */
+ .container header .header-text{
+   align-items: left;
+  width: 38%;
+  margin-bottom: 25px;
+  text-align: left;
+  padding: 5rem 4rem;
+ 
+  }
+  .container header .header-text h1{
+      font-size: 7rem;
+    line-height: 7.8rem;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #ED7218;
+    text-align: left;
+    margin-bottom: 2.3rem;
+   }
+   .container header .header-text p{
+    font-family: 'roboto', sans-serif;
+     font-size: 2rem;
+     font-weight: 100;
+       color: rgb(54, 54, 54);   
+     font-style: italic;
+     margin-bottom: 2.3rem;
+   }
+   .container header .header-text button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 10px 18px;  
+    background-color:  #ED7218;
+    color: white;
+    border: none;
+  }
+
+
+  /*  
+   
+   ................. main ...............
+   -----------  section 1 started-----------
+  
+  */
+ main .box-1 .box-1-cards{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   min-height: 30rem;
+   background: #E0E5EB;
+   justify-content: center;
+ }
+
+ main .box-1 .box-1-cards .box-1-card{
+ padding: 5.3rem 4rem;
+ width: 27%;
+ text-align: center;
+}
+/*  adding different color on each of the element */
+main .box-1 .box-1-cards .box-1-card:nth-child(1){
+  background-color: #f16d0e;
+ }
+ main .box-1 .box-1-cards .box-1-card:nth-child(2){
+  background-color:#f07c1d;
+ }
+ main .box-1 .box-1-cards .box-1-card:nth-child(3){
+  background-color:#f59921;
+ }
+ /*   .........end........ */
+ main .box-1 .box-1-cards .box-1-card i {
+  color: #ec6200;
+  font-size: 3rem;
+  background-color: rgb(253, 253, 253);
+  padding: 2.3rem;
+  border-radius: 50%;
+ }
+ main .box-1 .box-1-cards .box-1-card h2 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-top: 2rem;
+ }
+ main .box-1 .box-1-cards .box-1-card p {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  line-height: 1.7;
+  margin-top: 2rem;
+ }
+ main .box-1 .box-1-cards .box-1-card .box1-button {
+  font-size: 2rem;
+  text-transform: capitalize;
+  line-height: 1.3;
+  padding: 1rem 3.8rem;
+  margin-top: 5rem;
+  border: none;
+  background-color: whitesmoke;
+  color: rgb(20, 20, 20);
+  
+ }
+ main .box-1 .box-1-cards .box-1-card .box1-button:hover{
+   background-color: rgb(8, 8, 8);
+   color: rgb(255, 254, 254);
+ }
+ /*  end of the section 1 ................. */
+
+
+ /*  .................. The start of section 2 ................. */
+
+ main .box-2 {
+   padding: 4rem 12rem;
+   width: 100%;
+ }
+ main .box-2 .box-our-team{
+   background-color: white;
+   min-height: 34rem;
+   width: 65%;
+   text-align: left;
+ }
+ main .box-2 .box-our-team h2{
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  font-size: 8rem;
+   font-weight: 300;
+
+}
+/*  .......sub comment.......adding color to the last word */
+main .box-2 .box-our-team h2 span{
+  color: #ED7218;
+  font-weight: 900;
+}
+/*  a...............end of color adding................. */
+main .box-2 .box-our-team p{
+ color: rgb(15, 15, 15);
+ font-size: 1.8rem ;
+ line-height: 3rem;
+}
+/*  end of section 2 */
+
+main .box-3 .box-our-team-img{
+  background-color: #F48024;
+  width: 90%; 
+  height: 34rem;
+  display: flex;
+  padding-left:10rem;
+ }
+
+main .box-3 .box-our-team-img .image-of-preson{
+width: 34%;
+height: 38rem;
+margin-right: 4rem;
+margin-top: -10rem;
+} 
+main .box-3 .box-our-team-img .image-of-preson img{
+  width: 100%;
+  height: 100%;
+ } 
+ /*  box 3   */
+
+ /* starting section 4 of welcome note  */
+ /* main .box-4 {
+ 
+
+ } */
+ main .box-4 .box-welcome{
+  min-height: 40rem; 
+  background: #E0E5EB;
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5rem 7rem;
+  transition: 1s ease-in;
+}
+ /* styling the first child  */
+
+ main .box-4 .box-welcome .child-welcome-main{
+   width: 48%;
+   padding: 4rem;
+   padding-right: 12rem;
+ }
+
+ main .box-4 .box-welcome .child-welcome-main h2{
+   font-size: 4rem;
+   font-weight: 900;
+   color: #ec6200;
+   text-transform: uppercase;
+ }
+ 
+ main .box-4 .box-welcome .child-welcome-main h3{
+  font-family: 'roboto', sans-serif;
+  font-size: 7rem;
+  font-weight: 900;
+  color: rgb(15, 15, 15);
+  text-transform: capitalize;
+  letter-spacing: 8px;
+  line-height: 7rem;
+  margin-top: 1rem;
+  position: relative;
+ 
+ }
+ /*   sub comments add line at the bottom at h3 using after pervious */
+ main .box-4 .box-welcome .child-welcome-main h3::after{
+ content: '';
+ height: 2rem;
+ width: 18rem;
+ position: absolute;
+  border-bottom: 1.1rem solid #F48024;
+  top: 16rem;
+  left: 0px;
+ }
+ /*  end of sub comment */
+ 
+
+ main .box-4 .box-welcome .child-welcome-main p{
+  font-family:'Antonio' sans-serif;
+  margin-top: 9rem;
+  font-size: 2.8rem;
+  white-space: 10rem;
+  line-height: 5rem;
+  font-style: italic;
+  font-weight: 100;  
+  color: #797979;
+}
+
+ 
+ /* styling the second child  */
+
+ main .box-4 .box-welcome .child-welcome{
+  width: 48%;
+  padding: 4.3rem 3rem;
+  padding-right: 4.5rem;
+}
+main .box-4 .box-welcome .child-welcome p{
+  font-size: 1.6rem;
+  font-weight: 100;
+  line-height: 2.1rem;
+ }
+main .box-4 .box-welcome .child-welcome p:first-child{
+ margin-bottom: 3rem;
+}
+
+main .box-4 .box-welcome .child-welcome .button-welcome-more{
+  margin-top: 3.4rem;
+  padding: 1.2rem 2rem;
+  text-transform: capitalize;
+  background-color: #F48024;
+  color: white;
+  border: none;
+  letter-spacing: .1rem;
+  font-size: 2rem;
+  border-bottom: .6rem solid #a1a1a1;
+}
+main .box-4 .box-welcome .child-welcome .button-welcome-more:hover{
+  border-radius: .3rem;
+  border-bottom: .6rem solid  #b65200;
+  box-shadow: 0px 5px 7px #797979 ;
+}
+
+/* end of section 4  */
+
+/* starting of section 5  ----------------- */
+main .box-5 {
+  position: relative;
+  width: 100%;
+  min-height: 20rem;
+  background: white;
+  padding: 0 4rem;
+}
+main .box-5 .box-how-we-work{
+ width: 80%;
+ margin: 0 auto;
+}
+main .box-5 .box-how-we-work h2{
+  font-family:'Antonio' sans-serif;
+ color: #ec6200;
+ font-weight: 900;
+ font-size: 7rem;
+ word-spacing: .2rem;
+ text-transform: capitalize;
+ margin-top: 4rem;
+}
+main .box-5 .box-how-we-work p{
+ font-family:'Antonio' sans-serif;
+ color: #797979;
+ font-size: 1.7rem;
+ line-height: 2.2rem;
+ font-style: italic;
+}
+/*  end of section 5 */
+
+
+/* starting of section 6  ----------------- */
+main .box-6{
+  min-height: 50rem;
+  width: 100%;
+  padding: 4rem 7rem;
+}
+main .box-6 .box-gallary{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3, 30rem);
+  gap: 2rem;
+  padding: 2rem 10rem;
+}
+main .box-6 .box-gallary img{
+width: 100%;
+background-size: cover;
+/* background-position: center; */
+height: 100%;
+z-index: 10;
+}
+/*  sub comment selecting the child element  */
+main .box-6 .box-gallary img:nth-child(1){
+grid-column: 1/2;
+}
+main .box-6 .box-gallary img:nth-child(2){
+  grid-column: 2/3;
+}
+main .box-6 .box-gallary img:nth-child(3){
+  grid-column: 3/4;
+}
+main .box-6 .box-gallary img:nth-child(4){
+  grid-row: 2/2;
+}
+main .box-6 .box-gallary img:nth-child(6){
+  grid-row: 2/-1;
+  grid-column: 2/-1;
+}
+
+main .box-6 .box-gallary::before {
+  position: absolute;
+  content: '';
+  height: 50rem;
+  width: 83%;
+  background-color: #ec6200;
+  top: 20rem;
+  right: 0;
+}
+/* end of gallary  */
+main .box-7{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  background-color:#E0E5EB;
+  height: 75rem;
+}
+main .box-7 .box-build-with-us{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .box-7 .box-build-with-us .box-build-with-us-img-1{
+width: 40%;
+z-index: 2;
+}
+
+main .box-7 .box-build-with-us .box-build-with-us-img-2{
+  width: 70%;
+  z-index: 5;
+  margin-top: -24rem;
+  margin-left: -47rem;
+}
+  main .box-7 .box-build-with-us .box-build-with-us-img-1 img{
+    width: 100%;
+ }
+main .box-7 .box-build-with-us .box-build-with-us-img-2 img{
+      width: 100%;
+      height: 60rem;
+}
+    
+/* box 7 text area   */
+main .box-build-with-us .box-build-with-us-text{
+  position: absolute;
+  min-height: 7rem;
+   min-width: 35rem;
+   width: 58rem;
+   background-color: #fff;
+   z-index: 6;
+   bottom: 0;
+   right: 17rem;
+   padding: 4rem 3rem;
+}
+main .box-build-with-us .box-build-with-us-text h2{
+  text-transform: capitalize;
+  color: #ec6200;
+  font-size: 2.8rem;
+  font-weight: 900;
+  
+}
+main .box-build-with-us .box-build-with-us-text p{
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+main .box-build-with-us .box-build-with-us-text .button-build-with-us{
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  color: white;
+  border:none;
+  background-color: #ec6200;
+}
+/* sub comment add color box */
+main .box-build-with-us::after{
+position: absolute;
+ content: '';
+  height: 34rem;
+  width: 85%;
+  background-color: #ec6200;
+ z-index: 1;
+ bottom: 0;
+}
+/* the end of overlaying image grid */
+
+/* start of text only area  box-8 */
+main .box-8 .box-just-note{
+  height: 25rem;
+  width: 100%;
+  text-align: center;
+  padding: 6rem 28rem;
+  
+}
+main .box-8 .box-just-note p{
+font-size: 2rem;
+line-height: 2.8rem; 
+}
+main .box-8 .box-just-note .button-just-note{
+  margin-top: 3.4rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  background: #ec6200;
+  border: none;
+  color: white;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+/* end of box 8 */
+
+
+/* styling box9  */
+.box-9{
+  width: 100%;
+   background-color: #F48024;
+   padding: 5rem 8rem;
+  min-height: 65rem;
+
+}
+.box-9 .box-9-firstblock{
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.box-9 .box-9-firstblock .box-9-firstblock-text{
+  width: 38%;
+  height: 100%;
+  margin-top: 4rem;
+  text-align: left;
+}
+.box-9 .box-9-firstblock .box-9-firstblock-text h2{
+  font-size: 5rem;
+   font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 6rem;
+  color: #fff;
+  letter-spacing: .4rem;
+}
+
+.box-9 .box-9-firstblock .box-9-firstblock-image{
+  width: 58%;
+  height: 95%;
+
+ }
+.box-9 .box-9-firstblock .box-9-firstblock-image img{
+  width: 100%;
+  z-index: 6;
+}
+/*  box9 first block end hear  */
+
+
+/*  second box start */
+.box-9 .box-9-second{
+  width: 100%;
+  height: 55rem;
+ position: relative;
+ margin-bottom: 18rem;
+}
+.box-9 .box-9-second .box-9-second-image{
+  width: 70%;
+  background-size: cover;
+  background-position: center;
+  margin-top: -7rem;
+}
+.box-9 .box-9-second .box-9-second-image img{
+  z-index: 10;
+  width: 100%;
+  margin-bottom: 20rem;
+}
+.box-9 .box-9-second .box-9-second-note{
+  width: 45rem;
+  min-height: 24rem;
+  background: white;
+  padding: 1rem 2rem;
+  z-index: 12;
+  position: absolute;
+  right: 3rem;
+  top: 38rem;
+}
+.box-9 .box-9-second .box-9-second-note h2{
+ font-size: 4.5rem;
+  text-transform: capitalize;
+
+ }
+ .box-9 .box-9-second .box-9-second-note p{
+  font-size: 2rem;
+  line-height: 3rem;
+   margin-bottom: 4rem;
+  }
+  .box-9 .box-9-second .box-9-second-note .button-second-note{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: #ec6200;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    border: none;
+  }
+ 
+
+  /*  end of box 9 styling ....................... */
+
+
+
+ main .box-10{
+   background-color:#292D33;
+  }
+ main .box-10 .box-get-touch{
+  position: relative;
+  padding: 5rem 2rem;
+  width: 100%;
+  }
+
+  main .box-10 .box-get-touch .box-get-touch-header{
+    width: 90%;
+    margin: 0 auto; 
+  }
+ main .box-10 .box-get-touch .box-get-touch-header h2{
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 8rem;
+   color: #ec6200;
+    }
+ main .box-10 .box-get-touch .box-get-touch-header p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: #fff;
+   }
+
+   /*  first note  */
+ main .box-10 .box-get-touch .box-get-touch-contact-area{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    z-index: 10;
+    padding: 2.8rem 4.8rem;
+    position: relative;
+  }
+ main .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+  /*  selecting all the icons */
+  .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark i, .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call i, .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock i{
+   font-size: 3rem;
+   color: #fff;
+   padding: 1.4rem 1.8rem;
+   border-radius: 50%;
+   background-color:#ec6200;
+   margin-bottom: 1.4rem;
+  }
+    /*  selecting all the p */
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark p, .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call p, .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock p{
+    margin: 1rem 0;
+    font-size: 2rem;
+  }
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form{
+    width: 50%;
+   
+  }
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form form{
+   display: flex;
+   flex-direction: column;
+   padding-top: 3rem;
+  }
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form form input, textarea{
+   margin-bottom: 1rem;
+   font-size: 2rem;
+ }
+ .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form form input {
+  padding: 1rem 2rem;
+}
+.box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form form button{
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  width: 13rem;
+  background-color: #ec6200;
+  color: white;
+  border: none;
+}
+.box-get-touch::before{
+  content: '';
+  position: absolute;
+  height: 40rem;
+  width: 85%;
+  background-color: #ec6200;
+  top: 28rem;
+   left: 10rem;
+}
+
+footer{
+  background-color:#292D33;
+  display: flex;
+
+  padding: 4rem 5rem;
+  justify-content:center;
+}
+footer i{
+  font-size: 6rem;
+  color: white;
+  padding: 0 2rem;
+}
+
+/* end */
+
+ /* @media all and  (orientation: landscape) and (min-width: 720px) and (max-width:980px){
+   body{
+     color: black;
+
+   }
+    html{
+    font-size: 52.5%;
+  }
+ } */
+
+ @media all and (max-width:980px){ 
+    body{
+      overflow-x: hidden;
+    }
+  .container .nav-container .brand-logo{
+    width:  70px;
+    margin-left: 4rem;
+   }
+   .nav-icon{
+    display: block;
+   }
+  /*  nav styles  */
+  .nav{
+    position: absolute;
+    width: 100% ;
+    height: 100vh;
+    top: 80px;
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #ec6200;
+    transform: translateX(100%);
+    transition: transform .6s ease-in;
+  }
+ 
+ .nav-active{
+   transform: translateX(0);
+ }
+  .nav .nav-items {
+   display: block;
+    margin: 0 auto;
+  }
+ 
+ 
+  .nav .nav-items .nav-item {
+   font-weight: 400;
+  font-size: 5rem;
+  margin: 1.1rem ;
+  }
+ .nav .nav-items .nav-item .nav-links:hover {
+  color: #E0E5EB;
+  }
+  /* header media quarry */
+ .container header{
+   width: 100%;
+   height: 38rem;
+   flex-direction: row;
+   padding-bottom: 0rem;
+   margin: 0;
+ }
+ /*  header image style */
+ .container header .header-imag{
+   width: 58%;
+   height: 100%;
+   padding: 2rem 4rem;
+   padding-bottom: 0;
+ }
+
+ .container header .header-imag img{
+   height: 100%;
+  
+ }
+/*  header text style */
+ .container header .header-text{
+  width: 40%;
+  height: 100%;
+  padding-top: 3rem;
+  text-align:center;
+  }
+   .container header .header-text h1{
+    text-align: center;
+    font-size: 4rem;
+    line-height:4rem;
+   }
+  
+    .container header .header-text p{
+     font-size: 2rem;
+     margin-bottom: 1.3rem;
+     padding: 0 2rem;
+   }
+   .toggler_x .nav-icon-1 {
+    background-color: #f16d0e !important;
+  transform:translate(-4px , 5px)  rotate(-45deg) ;
+   }
+    .toggler_x .nav-icon-1 {
+    opacity: 0;
+   }
+   .toggler_x .nav-icon-1 {
+    background-color: #f16d0e !important;
+    transform:translate(-4px , -5px)  rotate(45deg) ;
+   }
+
+
+
+
+
+   main .box-1 .box-1-cards{
+   flex-direction: row;
+   width: 100%;
+   min-height: 30rem;
+   padding: 5.3rem 4rem;  
+   padding-top: 0;
+ }
+
+ main .box-1 .box-1-cards .box-1-card{
+ width:31%;
+ text-align: center;
+ margin-bottom: 1rem;
+}
+
+ /*   .........end........ */
+
+ main .box-1 .box-1-cards .box-1-card h2 {
+  font-size: 4rem;
+   }
+ main .box-1 .box-1-cards .box-1-card p {
+  font-size: 1.6rem;
+ }
+
+ /*  .................. The start of section 2 ................. */
+
+
+ main .box-2 .box-our-team{
+   background-color: white;
+   min-height: 26rem;
+   width: 90%;
+   text-align: center;
+ }
+
+
+
+/*  end of section 2 */
+
+
+main .box-3 .box-our-team-img{
+   min-height:40rem; 
+  flex-direction: row;
+   width: 100%;
+   margin: 0 auto;
+ }
+
+main .box-3 .box-our-team-img .image-of-preson {
+margin: 1rem 0;
+width: 46%;
+height: 33rem;
+} 
+main .box-3 .box-our-team-img .image-of-preson img{
+  width: 100%;
+  height: 100%;
+ } 
+ /*  box 3   */
+
+
+
+
+
+  main .box-4 .box-welcome{
+  min-height: 38rem; 
+   flex-direction: column;
+   padding: 5rem 2rem;
+
+}
+ /* styling the first child  */
+
+ main .box-4 .box-welcome .child-welcome-main{
+   width: 100%;
+   height: 45%;
+   padding: 2rem;
+
+ }
+
+ main .box-4 .box-welcome .child-welcome-main h2{
+   font-size: 5rem;
+  }
+ 
+ main .box-4 .box-welcome .child-welcome-main h3{
+  font-size: 8rem; 
+ }
+ /*   sub comments add line at the bottom at h3 using after pervious */
+ main .box-4 .box-welcome .child-welcome-main h3::after{
+  top: 13rem;
+ }
+ /*  end of sub comment */
+ 
+
+ main .box-4 .box-welcome .child-welcome-main p{
+  margin-top: 4rem;
+  font-size: 2.8rem;
+  line-height: 3rem;
+  font-style: italic;
+  font-weight: 300;  
+ }
+
+ 
+ /* styling the second child  */
+
+ main .box-4 .box-welcome .child-welcome{
+  width: 100%;
+  padding: 4.3rem 3rem;
+  
+}
+main .box-4 .box-welcome .child-welcome p{
+  font-size: 2rem;
+  font-weight: 200;
+}
+main .box-4 .box-welcome .child-welcome p:nth-child(2){
+ display: none;
+}
+
+/* end of section 4  */
+
+/* starting of section 5  ----------------- */
+main .box-5 {
+  padding: 0 4rem;
+}
+main .box-5 .box-how-we-work{
+ width: 100%;
+ margin: 0 auto;
+}
+main .box-5 .box-how-we-work h2{
+ font-size: 6.8rem;
+}
+main .box-5 .box-how-we-work p{
+ font-size: 2rem;
+}
+/*  end of section 5 */
+
+
+
+/* starting of section 6  ----------------- */
+main .box-6{
+ padding: 4rem 1rem;
+ height: 30rem;
+ width: 100%;
+}
+main .box-6 .box-gallary{
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  padding: 0;
+  display: block;
+  overflow-x: scroll;
+}
+main .box-6 .box-gallary img{
+width: 100%;
+height: 100%;
+z-index: 10;
+}
+main .box-6 .box-gallary::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    background-color: #ec620000;
+    top: 0;
+    right: 0;
+}
+
+/* end of gallary  */
+/*  sub comment selecting the child element  */
+
+
+
+
+main .box-7{
+   
+  justify-items: flex-start;
+  width: 100%;
+   background-color:#E0E5EB;
+  height: 75rem;
+  flex-direction: column;
+}
+main .box-7 .box-build-with-us{
+  position: relative;
+  padding: 0 2rem;
+}
+main .box-7 .box-build-with-us .box-build-with-us-img-1{
+display: none;
+}
+
+main .box-7 .box-build-with-us .box-build-with-us-img-2{
+  width: 80%;
+  z-index: 5;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+main .box-7 .box-build-with-us .box-build-with-us-img-2 img{
+  width: 100%; 
+  height: 400px;
+}
+    
+/* box 7 text area   */
+main .box-build-with-us .box-build-with-us-text{
+  position: relative;
+   width: 100%;  
+   bottom: 0;
+   right: 0;
+   padding: 4rem 3rem;
+}
+main .box-build-with-us .box-build-with-us-text h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
+main .box-build-with-us .box-build-with-us-text p{
+  font-size: 2rem;
+  margin-top: 1.8rem;
+}
+main .box-build-with-us .box-build-with-us-text .button-build-with-us{
+  font-size: 3rem;
+   height: 38%;
+}
+/* sub comment add color box  at the back of the content */
+main .box-build-with-us::after{
+position: absolute;
+ content: '';
+  height: 20rem;
+  width: 95%;
+  background-color: #ec6200;
+  z-index: 1;
+  top: 10%;
+}
+
+/* start of text only area  box-8 */
+main .box-8 .box-just-note{
+  min-height: 25rem;
+  height: 28rem;
+  width: 100%;
+  text-align: center;
+  padding: 6rem 2rem;
+  
+}
+main .box-8 .box-just-note p{
+font-size: 2rem;
+line-height: 2.8rem; 
+}
+main .box-8 .box-just-note .button-just-note{
+  margin-top: 3rem;
+  font-size: 2.6rem;
+  background: #ec6200;
+  font-weight: 700;
+ 
+}
+/* end of box 8 */
+
+
+/* styling box9  */
+.box-9{
+  width: 100%;
+   background-color: #F48024;
+   padding: 5rem 2rem;
+  min-height: 65rem;
+  height: 180rem;
+ align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+ flex-flow: column;
+    margin: 0;
+  padding: 0;
+}
+.box-9 .box-9-firstblock{
+  width: 100%;
+  height: 46%;
+  margin: 0;
+  padding: 2rem 2rem;
+ 
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; */
+  
+}
+.box-9 .box-9-firstblock .box-9-firstblock-text{
+  width:100%;
+  height: 20%;
+  margin-top: 0rem;
+  text-align: center;
+     margin: 0;
+  padding: 0;
+   margin-bottom: 2rem;
+}
+.box-9 .box-9-firstblock .box-9-firstblock-text h2{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: #fff;
+  letter-spacing: .4rem;
+
+}
+
+.box-9 .box-9-firstblock .box-9-firstblock-image{
+  width: 80%;
+  height: 66%;
+  position: static;
+ }
+.box-9 .box-9-firstblock .box-9-firstblock-image img{
+  width: 100%;
+
+}
+/*  box9 first block end hear  */
+
+
+/*  second box start */
+.box-9 .box-9-second{
+  width: 100%;
+  height: 48%;
+ margin: 0 auto;
+}
+.box-9 .box-9-second .box-9-second-image{
+  width: 100%;
+ 
+  text-align: center;
+  margin: 0;
+
+}
+.box-9 .box-9-second .box-9-second-image img{
+  width: 90%;
+  margin-bottom: 2rem;
+  
+}
+.box-9 .box-9-second .box-9-second-note{
+  margin: 0 auto;
+  width: 92%;
+  height: 36%;
+  padding: 1rem 2rem;
+  position: static;
+ 
+ }
+.box-9 .box-9-second .box-9-second-note h2{
+ font-size: 4.5rem;
+ }
+ .box-9 .box-9-second .box-9-second-note p{
+  font-size: 2rem;
+   margin-bottom: 2rem;
+  }
+  .box-9 .box-9-second .box-9-second-note .button-second-note{
+     margin-bottom: 2rem;
+  }
+ 
+
+  /*  end of box 9 styling ....................... */
+
+
+  main .box-10{
+   background-color:#292D33;
+  }
+ main .box-10 .box-get-touch{
+  position: relative;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  }
+
+
+ main .box-10 .box-get-touch .box-get-touch-header h2{
+    font-size: 5rem;
+   color: #ec6200;
+   margin-bottom: 1rem;
+    }
+ main .box-10 .box-get-touch .box-get-touch-header p{
+    font-size: 2rem;
+    color: #fff;
+   }
+
+   /*  first note  */
+ main .box-10 .box-get-touch .box-get-touch-contact-area{
+    flex-direction: column;
+     width: 90%;
+    margin-top: 3rem;
+    padding: 1.4rem .5rem;
+    position: relative;
+  }
+ main .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+  /*  selecting all the icons */
+ .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark , .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call , .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+  .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark i, .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call i, .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock i{
+   font-size: 3rem;
+   color:#ec6200;
+   padding: 2rem 3rem;
+   border-radius: 50%;
+   background-color:#ec620000;
+   margin-bottom: 1.4rem;
+   width: 15%;
+  }
+    /*  selecting all the p */
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark p, .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call p, .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock p{
+    margin: 1rem 0;
+    width: 80%;
+    font-size: 2rem;
+  }
+  
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form {
+    width: 100%;
+}
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form form{
+   display: flex;
+   flex-direction: column;
+   padding: 2rem;
+  }
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form form input, textarea{
+   margin-bottom: 1rem;
+   border: none;
+   border: .1rem solid #ec6200;
+ }
+
+.box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form form button{
+  align-self: center;
+  font-size: 2rem;
+  width: 14rem;
+}
+.box-get-touch::before{
+  width: 100%;
+  top: 28rem;
+  left: 0rem;
+}
+
+/* footer styles ................... */
+footer i{
+  font-size: 4rem;
+  color: rgb(216, 216, 216);
+ }
+/* end */
+
+
+ } 
+
+  
+
+@media all and (max-width:742px)  {
+  html{
+    font-size: 62.5%;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .nav-container{
+     height: 80px;
+     position: relative;
+  }
+  .container .nav-container .brand-logo{
+    width:  60px;
+    margin-left: 16px;
+   }
+    .nav-icon{
+    display: block;
+   }
+  /*  nav styles  */
+  .nav{
+    position: absolute;
+    width: 100% ;
+    height: 100vh;
+    top: 80px;
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #ec6200;
+    transform: translateX(100%);
+    transition: transform .6s ease-in;
+  }
+ 
+ .nav-active{
+   transform: translateX(0);
+ }
+  .nav .nav-items {
+   display: block;
+    margin: 0 auto;
+  }
+ 
+ 
+  .nav .nav-items .nav-item {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 1.5rem ;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+ }
+ .nav .nav-items .nav-item .nav-links:hover {
+  color: #E0E5EB;
+  }
+  /* header media quarry */
+ .container header{
+   width: 100%;
+   height: 55rem;
+   flex-direction: column;
+   padding-bottom: 2rem;
+ }
+ /*  header image style */
+ .container header .header-imag{
+   width: 100%;
+   height: 55%;
+   padding: 1rem 6rem;
+   padding-bottom: 0;
+ }
+
+/*  header text style */
+ .container header .header-text{
+  width: 100%;
+  height: 40%;
+  padding: 5rem 0rem;
+   padding-top: 0;
+   text-align: center; 
+  }
+   .container header .header-text h1{
+    text-align:center;
+    font-size: 4rem;
+    line-height:5rem;
+   }
+  
+    .container header .header-text p{
+     font-size: 2rem;
+     margin-bottom: 1.3rem;
+     padding: 0 2rem;
+   }
+
+
+
+
+   main .box-1 .box-1-cards{
+   flex-direction: column;
+   width: 100%;
+   min-height: 30rem;
+   padding: 5.3rem 4rem;  
+ }
+
+ main .box-1 .box-1-cards .box-1-card{
+ padding: 5.3rem 4rem;
+ width:100%;
+ text-align: center;
+ margin-bottom: 1rem;
+}
+/*  adding different color on each of the element */
+main .box-1 .box-1-cards .box-1-card:nth-child(1){
+  background-color: #f16d0e;
+ }
+ main .box-1 .box-1-cards .box-1-card:nth-child(2){
+  background-color:#f07c1d;
+ }
+ main .box-1 .box-1-cards .box-1-card:nth-child(3){
+  background-color:#f59921;
+ }
+ /*   .........end........ */
+
+ main .box-1 .box-1-cards .box-1-card h2 {
+  font-size: 5.6rem;
+   }
+ main .box-1 .box-1-cards .box-1-card p {
+  font-size: 2rem;
+
+  
+ }
+ main .box-1 .box-1-cards .box-1-card .box1-button {
+  font-size: 2rem;
+  padding: 1rem 3.8rem;
+  margin-top: 4rem;  
+ }
+
+
+
+ /*  .................. The start of section 2 ................. */
+
+ main .box-2 {
+   padding: 4rem 2rem;
+   width: 100%;
+ }
+ main .box-2 .box-our-team{
+    margin: 0 auto;
+   width: 90%;
+   text-align: content;
+ }
+ main .box-2 .box-our-team h2{
+  font-size: 6rem;
+   font-weight: 300;
+}
+
+
+
+main .box-2 .box-our-team p{
+ font-size: 2rem ;
+ 
+}
+/*  end of section 2 */
+
+
+main .box-3 .box-our-team-img{
+  width: 100%; 
+  min-height:75rem; 
+  
+  padding-bottom:10rem;
+  flex-direction: column;
+  padding: 2rem 2rem;
+
+ }
+
+main .box-3 .box-our-team-img .image-of-preson {
+ margin: 1rem auto;
+width: 60%;
+height: 33rem;
+} 
+main .box-3 .box-our-team-img .image-of-preson img{
+  width: 100%;
+  height: 100%;
+ } 
+ /*  box 3   */
+
+
+
+
+
+  main .box-4 .box-welcome{
+  min-height: 40rem; 
+   flex-direction: column;
+   padding: 5rem 2rem;
+
+}
+ /* styling the first child  */
+
+ main .box-4 .box-welcome .child-welcome-main{
+   width: 100%;
+   height: 45%;
+   padding: 2rem;
+
+ }
+
+ main .box-4 .box-welcome .child-welcome-main h2{
+   font-size: 5rem;
+  }
+ 
+ main .box-4 .box-welcome .child-welcome-main h3{
+  font-size: 8rem; 
+ }
+ /*   sub comments add line at the bottom at h3 using after pervious */
+ main .box-4 .box-welcome .child-welcome-main h3::after{
+  top: 13rem;
+ }
+ /*  end of sub comment */
+ 
+
+ main .box-4 .box-welcome .child-welcome-main p{
+  margin-top: 4rem;
+  font-size: 2.8rem;
+  line-height: 3rem;
+  font-style: italic;
+  font-weight: 300;  
+ }
+
+ 
+ /* styling the second child  */
+
+ main .box-4 .box-welcome .child-welcome{
+  width: 100%;
+  padding: 4.3rem 3rem;
+  
+}
+main .box-4 .box-welcome .child-welcome p{
+  font-size: 2rem;
+  font-weight: 200;
+}
+main .box-4 .box-welcome .child-welcome p:nth-child(2){
+ display: none;
+}
+
+/* end of section 4  */
+
+/* starting of section 5  ----------------- */
+main .box-5 {
+  padding: 0 4rem;
+}
+main .box-5 .box-how-we-work{
+ width: 100%;
+ margin: 0 auto;
+}
+main .box-5 .box-how-we-work h2{
+ font-size: 6.8rem;
+}
+main .box-5 .box-how-we-work p{
+ font-size: 2rem;
+}
+/*  end of section 5 */
+
+
+
+/* starting of section 6  ----------------- */
+main .box-6{
+ padding: 4rem 1rem;
+ height: 30rem;
+ width: 100%;
+}
+main .box-6 .box-gallary{
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  padding: 0;
+  display: block;
+  overflow-x: scroll;
+}
+main .box-6 .box-gallary img{
+width: 100%;
+height: 100%;
+z-index: 10;
+}
+main .box-6 .box-gallary::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    background-color: #ec620000;
+    top: 0;
+    right: 0;
+}
+
+/* end of gallary  */
+/*  sub comment selecting the child element  */
+
+
+
+
+main .box-7{
+   
+  justify-items: flex-start;
+  width: 100%;
+   background-color:#E0E5EB;
+  height: 75rem;
+  flex-direction: column;
+}
+main .box-7 .box-build-with-us{
+  position: relative;
+  padding: 0 2rem;
+}
+main .box-7 .box-build-with-us .box-build-with-us-img-1{
+display: none;
+}
+
+main .box-7 .box-build-with-us .box-build-with-us-img-2{
+  width: 80%;
+  z-index: 5;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+main .box-7 .box-build-with-us .box-build-with-us-img-2 img{
+  width: 100%; 
+  height: 400px;
+}
+    
+/* box 7 text area   */
+main .box-build-with-us .box-build-with-us-text{
+  position: relative;
+   width: 100%;  
+   bottom: 0;
+   right: 0;
+   padding: 4rem 3rem;
+}
+main .box-build-with-us .box-build-with-us-text h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
+main .box-build-with-us .box-build-with-us-text p{
+  font-size: 2rem;
+  margin-top: 1.8rem;
+}
+main .box-build-with-us .box-build-with-us-text .button-build-with-us{
+  font-size: 3rem;
+   height: 38%;
+}
+/* sub comment add color box  at the back of the content */
+main .box-build-with-us::after{
+position: absolute;
+ content: '';
+  height: 20rem;
+  width: 95%;
+  background-color: #ec6200;
+  z-index: 1;
+  top: 10%;
+}
+
+/* start of text only area  box-8 */
+main .box-8 .box-just-note{
+  min-height: 25rem;
+  height: 35rem;
+  width: 100%;
+  text-align: center;
+  padding: 6rem 2rem;
+  
+}
+main .box-8 .box-just-note p{
+font-size: 2rem;
+line-height: 2.8rem; 
+}
+main .box-8 .box-just-note .button-just-note{
+  margin-top: 3rem;
+  font-size: 2.6rem;
+  background: #ec6200;
+  font-weight: 700;
+ 
+}
+/* end of box 8 */
+
+
+/* styling box9  */
+.box-9{
+  width: 100%;
+   background-color: #F48024;
+   padding: 5rem 2rem;
+  min-height: 65rem;
+  height: 150rem;
+ align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+ flex-flow: column;
+    margin: 0;
+  padding: 0;
+}
+.box-9 .box-9-firstblock{
+  width: 100%;
+  height: 46%;
+  margin: 0;
+  padding: 2rem 2rem;
+ 
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; */
+  
+}
+.box-9 .box-9-firstblock .box-9-firstblock-text{
+  width:100%;
+  height: 20%;
+  margin-top: 0rem;
+  text-align: center;
+     margin: 0;
+  padding: 0;
+   margin-bottom: 2rem;
+}
+.box-9 .box-9-firstblock .box-9-firstblock-text h2{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: #fff;
+  letter-spacing: .4rem;
+
+}
+
+.box-9 .box-9-firstblock .box-9-firstblock-image{
+  width: 100%;
+  height: 66%;
+  position: static;
+ }
+.box-9 .box-9-firstblock .box-9-firstblock-image img{
+  width: 100%;
+
+}
+/*  box9 first block end hear  */
+
+
+/*  second box start */
+.box-9 .box-9-second{
+  width: 100%;
+  height: 48%;
+ margin: 0 auto;
+}
+.box-9 .box-9-second .box-9-second-image{
+  width: 100%;
+ 
+  text-align: center;
+  margin: 0;
+
+}
+.box-9 .box-9-second .box-9-second-image img{
+  width: 90%;
+  margin-bottom: 2rem;
+  
+}
+.box-9 .box-9-second .box-9-second-note{
+  margin: 0 auto;
+  width: 92%;
+  height: 36%;
+  padding: 1rem 2rem;
+  position: static;
+ 
+ }
+.box-9 .box-9-second .box-9-second-note h2{
+ font-size: 4.5rem;
+ }
+ .box-9 .box-9-second .box-9-second-note p{
+  font-size: 2rem;
+   margin-bottom: 2rem;
+  }
+  .box-9 .box-9-second .box-9-second-note .button-second-note{
+     margin-bottom: 2rem;
+  }
+ 
+
+  /*  end of box 9 styling ....................... */
+
+
+  main .box-10{
+   background-color:#292D33;
+  }
+ main .box-10 .box-get-touch{
+  position: relative;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  }
+
+
+ main .box-10 .box-get-touch .box-get-touch-header h2{
+    font-size: 5rem;
+   color: #ec6200;
+   margin-bottom: 1rem;
+    }
+ main .box-10 .box-get-touch .box-get-touch-header p{
+    font-size: 2rem;
+    color: #fff;
+   }
+
+   /*  first note  */
+ main .box-10 .box-get-touch .box-get-touch-contact-area{
+    flex-direction: column;
+     width: 90%;
+    margin-top: 3rem;
+    padding: 1.4rem .5rem;
+    position: relative;
+  }
+ main .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+  /*  selecting all the icons */
+ .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark , .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call , .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+  .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark i, .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call i, .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock i{
+   font-size: 3rem;
+   color:#ec6200;
+   padding: 2rem 1rem;
+   border-radius: 50%;
+   background-color:#ec620000;
+   margin-bottom: 1.4rem;
+   width: 15%;
+  }
+    /*  selecting all the p */
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark p, .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call p, .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock p{
+    margin: 1rem 0;
+    width: 80%;
+    font-size: 2rem;
+  }
+  
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form {
+    width: 100%;
+}
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form form{
+   display: flex;
+   flex-direction: column;
+   padding: 2rem;
+  }
+  .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form form input, textarea{
+   margin-bottom: 1rem;
+   border: none;
+   border: .1rem solid #ec6200;
+ }
+
+.box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-form form button{
+  align-self: center;
+  font-size: 2rem;
+  width: 14rem;
+}
+.box-get-touch::before{
+  width: 100%;
+  top: 28rem;
+  left: 0rem;
+}
+
+/* footer styles ................... */
+footer i{
+  font-size: 4rem;
+  color: rgb(216, 216, 216);
+ }
+/* end */
+}
+
+
+/*  another break point  */
+@media all and (max-width:444px){
+  body{
+    overflow-x: hidden;
+  }
+  main .box-4 .box-welcome .child-welcome-main h3 {
+    font-size: 5.5rem;
+  }
+    main .box-8 .box-just-note {
+    padding: 2rem 2rem;
+}
+  
+  .box-9 {
+    padding: 2rem 2rem;
+    height: 88rem;
+    padding-bottom: 0;
+}
+
+.box-9 .box-9-firstblock {
+      height: 42%;
+      padding: 0rem 2rem;
+}
+.box-9 .box-9-second {
+       height: 56%;
+}
+.box-9 .box-9-second {
+    height: 48%;
+}
+
+.box-9 .box-9-second .box-9-second-image {
+        height:46%;
+   }
+   .box-9 .box-9-second .box-9-second-note {
+      height: 28rem;
+
+}
+
+main .box-10 .box-get-touch .box-get-touch-contact-area {
+    width: 100%;
+}
+
+main .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+}
+.box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark, .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call, .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock {
+    flex-direction: column;
+     align-items: center;
+     width: 100%;     
+}
+.box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark p, .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call p, .box-10 .box-get-touch .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock p {
+     width: 95%;
+   text-align:center;
+}
+.box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-map-mark i, .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction  .box-get-touch-contact-direction-call i, .box-10 .box-get-touch-contact-area .box-get-touch-contact-direction .box-get-touch-contact-direction-clock i {
+   padding-bottom: 0;
+    margin-bottom: 0;
+  
+}
+}

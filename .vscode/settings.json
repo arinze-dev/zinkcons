@@ -1,0 +1,17 @@
+{
+  "bracket-pair-colorizer-2.colors": [
+
+    "Gold",
+    "Orchid",
+    "LightSkyBlue",
+    "red",
+    "LightSkyBlue"
+  ],
+  "auto-close-tag.disableOnLanguage": [
+  
+  ],
+  "cSpell.enableFiletypes": [
+    "Log"
+  ],
+  "cSpell.language": "en,en-GB"
+}
